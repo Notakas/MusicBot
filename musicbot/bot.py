@@ -1128,7 +1128,7 @@ class MusicBot(discord.Client):
         e = discord.Embed()
         e.colour = 7506394
         e.set_footer(text=self.config.footer_text, icon_url='https://i.imgur.com/gFHBoZA.png')
-        e.set_author(name=self.user.name, url='https://github.com/Just-Some-Bots/MusicBot', icon_url=self.user.avatar_url)
+        e.set_author(name=self.user.name, url='https://github.com/Notakas/NanoMusicBot', icon_url=self.user.avatar_url)
         return e
 
     async def cmd_resetplaylist(self, player, channel):

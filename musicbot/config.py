@@ -365,7 +365,7 @@ class ConfigDefaults:
     legacy_skip = False
     leavenonowners = False
     usealias = True
-    footer_text = 'Just-Some-Bots/MusicBot ({})'.format(BOTVERSION)
+    footer_text = 'Notakas/NanoMusicBot ({})'.format(BOTVERSION)
 
     options_file = 'config/options.ini'
     blacklist_file = 'config/blacklist.txt'
